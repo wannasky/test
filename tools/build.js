@@ -9,5 +9,5 @@ fs.removeSync(path.join(process.cwd(), DIST));
 
 fs.mkdirsSync(path.join(process.cwd(), DIST));
 
-fs.writeJSONSync(path.join(process.cwd(), DIST, 'test.json'), {name: 'wannaksy'});
+fs.writeJSONSync(path.join(process.cwd(), DIST, 'test.json'), {name: 'wannaksy', date: new Date()});
 
