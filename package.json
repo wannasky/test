@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "11111",
+  "scripts": {
+    "build": "node ./tools/build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wannasky/test.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wannasky/test/issues"
+  },
+  "homepage": "https://github.com/wannasky/test#readme",
+  "devDependencies": {
+    "fs-extra": "^8.1.0"
+  }
+}
